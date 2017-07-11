@@ -43,30 +43,37 @@ public class RoshamboApp {
                 System.out.println(userName + " wins!");
             }
         }
-        
+
         if (playerchoice.equalsIgnoreCase("A2")) {
 
             System.out.println("Autoplayer 2: " + computerSelection2);
             System.out.println(userName + " :  " + playerSelection);
 
 
-            if (playerchoice.equals(computerSelection2)) {
+            if (playerSelection.equals(computerSelection2)) {
                 System.out.println("Draw");
             } else if (playerSelection.toString().equalsIgnoreCase("Scissors")) {
                 if (computerSelection2.toString().equalsIgnoreCase("Rock")) {
-                    System.out.println(userName + "loses!");
+                    System.out.println(userName + " loses!");
                 } else {
-                    System.out.println(userName + "wins!");
+                    System.out.println(userName + " wins!");
                 }
             } else if (playerSelection.toString().equalsIgnoreCase("Paper")) {
                 if (computerSelection2.toString().equalsIgnoreCase("Rock")) {
-                    System.out.println(userName + "wins!");
+                    System.out.println(userName + " wins!");
                 } else {
                     System.out.println(userName + " loses");
                 }
+            } else if (playerSelection.toString().equalsIgnoreCase("Rock")) {
+                if (computerSelection2.toString().equalsIgnoreCase("Paper")) {
+                    System.out.println(userName + "loses!");
+                } else {
+                    System.out.println(userName + " wins!");
+
+                }
             }
         }
-
     }
 }
+
 
