@@ -39,8 +39,6 @@ public class RoshamboApp {
             System.out.println();
 
 
-
-
             AutoPlayer1 player1 = new AutoPlayer1();
             AutoPlayer2 player2 = new AutoPlayer2();
             HumanPlayer player3 = new HumanPlayer();
@@ -107,7 +105,7 @@ public class RoshamboApp {
         }
 
         System.out.println();
-        System.out.println("Goodbye!");
+        System.out.println("Thanks for playing!");
     }
 }
 
