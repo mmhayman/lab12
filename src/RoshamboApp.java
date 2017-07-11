@@ -18,24 +18,28 @@ public class RoshamboApp {
         HumanPlayer name1 = new HumanPlayer();
         String userName = name1.getName();
 
+        String playerchoice = "";
+
+        System.out.println();
+        System.out.print("Who would you like to play against Autoplayer 1 or Autoplayer 2 (A1/A2): ");// who do you want to play against?
+        playerchoice = scan.nextLine();
+
+
+        while (!playerchoice.equalsIgnoreCase("A1") && (!playerchoice.equalsIgnoreCase("A2"))) {// while loop for validation
+
+
+            System.out.print("Invalid entry, please try again (A1/A2)");
+            playerchoice = scan.nextLine();
+
+
+        }
 
         while (choice.equalsIgnoreCase("y")) { // while loop to continue
 
             System.out.println();
-            String playerchoice = "";
-
-            System.out.print("Who would you like to play against Autoplayer 1 or Autoplayer 2 (A1/A2): ");// who do you want to play against?
-            playerchoice = scan.nextLine();
 
 
-            while (!playerchoice.equalsIgnoreCase("A1") && (!playerchoice.equalsIgnoreCase("A2"))) {// while loop for validation
 
-
-                System.out.print("Invalid entry, please try again (A1/A2)");
-                playerchoice = scan.nextLine();
-                System.out.println();
-
-            }
 
             AutoPlayer1 player1 = new AutoPlayer1();
             AutoPlayer2 player2 = new AutoPlayer2();
@@ -45,7 +49,7 @@ public class RoshamboApp {
             Roshambo computerSelection1 = player1.generateRoshambo();
             Roshambo computerSelection2 = player2.generateRoshambo();
 
-            // if player chooses a1. tihs is the loop it goes through
+            // if player chooses a1. this is the loop it goes through
 
 
             if (playerchoice.equalsIgnoreCase("A1")) {
