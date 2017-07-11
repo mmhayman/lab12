@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77bc99b1-8a03-4f2f-8519-aff9b97e5e42" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab12/HumanPlayer.class" afterPath="$PROJECT_DIR$/out/production/Lab12/HumanPlayer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Lab12/RoshamboApp.class" afterPath="$PROJECT_DIR$/out/production/Lab12/RoshamboApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HumanPlayer.java" afterPath="$PROJECT_DIR$/src/HumanPlayer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/RoshamboApp.java" afterPath="$PROJECT_DIR$/src/RoshamboApp.java" />
     </list>
@@ -16,11 +19,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="RoshamboApp.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RoshamboApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RoshamboApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="45" lean-forward="false" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+            <state relative-caret-position="282">
+              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -54,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HumanPlayer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HumanPlayer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HumanPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="67">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -116,8 +119,8 @@
         <option value="$PROJECT_DIR$/src/Player.java" />
         <option value="$PROJECT_DIR$/src/AutoPlayer1.java" />
         <option value="$PROJECT_DIR$/src/AutoPlayer2.java" />
-        <option value="$PROJECT_DIR$/src/HumanPlayer.java" />
         <option value="$PROJECT_DIR$/src/RoshamboApp.java" />
+        <option value="$PROJECT_DIR$/src/HumanPlayer.java" />
       </list>
     </option>
   </component>
@@ -619,12 +622,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499715435176</updated>
-      <workItem from="1499715439357" duration="17802000" />
+      <workItem from="1499715439357" duration="18088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17802000" />
+    <option name="totallyTimeSpent" value="18088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="37" y="82" width="981" height="733" extended-state="0" />
@@ -726,18 +729,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/HumanPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/RoshamboApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="282">
+          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RoshamboApp.java">
+    <entry file="file://$PROJECT_DIR$/src/HumanPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="45" lean-forward="false" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
+        <state relative-caret-position="67">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>

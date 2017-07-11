@@ -32,6 +32,7 @@ public class RoshamboApp {
 
                 System.out.print("Invalid entry, please try again (A1/A2)");
                 playerchoice = scan.nextLine();
+                System.out.println();
 
             }
 
@@ -45,7 +46,7 @@ public class RoshamboApp {
 
 
             if (playerchoice.equalsIgnoreCase("A1")) {
-
+                System.out.println();
                 System.out.println("Autoplayer 1: " + computerSelection1);
                 System.out.println(userName + " : " + playerSelection);
 
@@ -60,6 +61,7 @@ public class RoshamboApp {
 
             if (playerchoice.equalsIgnoreCase("A2")) {
 
+                System.out.println();
                 System.out.println("Autoplayer 2: " + computerSelection2);
                 System.out.println(userName + " :  " + playerSelection);
 

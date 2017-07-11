@@ -13,7 +13,6 @@ public class HumanPlayer extends Player {
         System.out.println();
         System.out.print("Choose Rock, paper, or scissors? (R/P/S)");
         input = scan.nextLine();
-        System.out.println();
         Roshambo choice = null;
 
         while (!input.equalsIgnoreCase("r") && (!input.equalsIgnoreCase("p")) && (!input.equalsIgnoreCase("s"))) {
