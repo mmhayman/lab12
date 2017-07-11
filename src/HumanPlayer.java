@@ -8,17 +8,24 @@ public class HumanPlayer extends Player {
     @Override
     public Roshambo generateRoshambo() {
         Scanner scan = new Scanner(System.in);
+
+        String input = " ";
         System.out.println("Choose Rock, paper, or scissors? (R/P/S)");
-        String input = scan.nextLine();
+        input = scan.nextLine();
         Roshambo choice = null;
 
+        while (!input.equalsIgnoreCase("r") && (!input.equalsIgnoreCase("p")) && (!input.equalsIgnoreCase("s"))) {
+
+            System.out.println("Invalid entry, please try again (r/p/s)");
+            input = scan.nextLine();
+
+        }
+
         if (input.equalsIgnoreCase("r")) {
-           choice = Roshambo.ROCK;
-        }
-        else if (input.equalsIgnoreCase("p")) {
+            choice = Roshambo.ROCK;
+        } else if (input.equalsIgnoreCase("p")) {
             choice = Roshambo.PAPER;
-        }
-        else if (input.equalsIgnoreCase("s")){
+        } else if (input.equalsIgnoreCase("s")) {
             choice = Roshambo.SCISSORS;
         }
         return choice;
