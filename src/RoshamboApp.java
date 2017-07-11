@@ -19,15 +19,16 @@ public class RoshamboApp {
         String userName = name1.getName();
 
 
-        while (choice.equalsIgnoreCase("y")) {
+        while (choice.equalsIgnoreCase("y")) { // while loop to continue
 
             System.out.println();
             String playerchoice = "";
 
-            System.out.print("Who would you like to play against Autoplayer 1 or Autoplayer 2 (A1/A2): ");
+            System.out.print("Who would you like to play against Autoplayer 1 or Autoplayer 2 (A1/A2): ");// who do you want to play against?
             playerchoice = scan.nextLine();
 
-            while (!playerchoice.equalsIgnoreCase("A1") && (!playerchoice.equalsIgnoreCase("A2"))) {
+
+            while (!playerchoice.equalsIgnoreCase("A1") && (!playerchoice.equalsIgnoreCase("A2"))) {// while loop for validation
 
 
                 System.out.print("Invalid entry, please try again (A1/A2)");
@@ -44,6 +45,8 @@ public class RoshamboApp {
             Roshambo computerSelection1 = player1.generateRoshambo();
             Roshambo computerSelection2 = player2.generateRoshambo();
 
+            // if player chooses a1. tihs is the loop it goes through
+
 
             if (playerchoice.equalsIgnoreCase("A1")) {
                 System.out.println();
@@ -58,6 +61,8 @@ public class RoshamboApp {
                     System.out.println(userName + " wins!");
                 }
             }
+
+            // if player choose a2. this is the loop it goes through
 
             if (playerchoice.equalsIgnoreCase("A2")) {
 
@@ -92,7 +97,7 @@ public class RoshamboApp {
 
 
             System.out.println();
-            System.out.print("Play again? (y/n)");
+            System.out.print("Play again? (y/n)"); // asking user to play again
             choice = scan.nextLine();
             choice.toLowerCase();
         }

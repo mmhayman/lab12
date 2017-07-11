@@ -11,10 +11,11 @@ public class HumanPlayer extends Player {
 
         String input = " ";
         System.out.println();
-        System.out.print("Choose Rock, paper, or scissors? (R/P/S)");
+        System.out.print("Choose Rock, paper, or scissors? (R/P/S)"); // asking user to enter r/p/s
         input = scan.nextLine();
         Roshambo choice = null;
 
+        // validation for user input r/p/s
         while (!input.equalsIgnoreCase("r") && (!input.equalsIgnoreCase("p")) && (!input.equalsIgnoreCase("s"))) {
 
             System.out.println("Invalid entry, please try again (r/p/s)");

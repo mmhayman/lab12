@@ -3,6 +3,7 @@
  */
 public class AutoPlayer2 extends Player {
 
+    // this user is random- so output is random
     @Override
     public Roshambo generateRoshambo() {
 
